@@ -1,0 +1,17 @@
+= Asciidoctor Maven Plugin: AsciiDoctor Multipage Example
+
+An example project that demonstrates how to convert AsciiDoc to multipage HTML5 using the Asciidoctor Maven plugin.
+
+See also:
+
+* https://github.com/asciidoctor/asciidoctor/issues/626[]
+* https://github.com/owenh000/asciidoctor-multipage[]
+* https://discuss.asciidoctor.org/Using-the-multi-page-converter-from-maven-td8549.html[]
+
+== Usage
+
+Convert the AsciiDoc to multipage HTML5 by invoking the `process-resources` goal (configured as the default goal):
+
+ $ mvn
+
+Open the file _target/generated-docs/sample.html_ in your browser to see the generated HTML file.
